@@ -22,4 +22,14 @@
         android:name="com.example.imunzei_ofc.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/linksFragment"
+        android:name="com.example.imunzei_ofc.LinksFragment"
+        android:label="fragment_links2"
+        tools:layout="@layout/fragment_links2" />
+    <fragment
+        android:id="@+id/link_ofFragment"
+        android:name="com.example.imunzei_ofc.Link_ofFragment"
+        android:label="fragment_link_of"
+        tools:layout="@layout/fragment_link_of" />
 </navigation>
