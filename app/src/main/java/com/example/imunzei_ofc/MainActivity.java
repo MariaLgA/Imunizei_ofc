@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         //binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(R.layout.activity_main);
 
+
         //setContentView(binding.getRoot());
 
         Chip comecar = (Chip) findViewById(R.id.botao);
@@ -28,5 +29,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(it);
             }
         });
+
+
     }
 }
