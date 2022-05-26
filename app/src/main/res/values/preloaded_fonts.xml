@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/akronim</item>
+        <item>@font/alatsi</item>
+        <item>@font/amita</item>
+        <item>@font/annie_use_your_telescope</item>
+        <item>@font/bentham</item>
+        <item>@font/charmonman</item>
+        <item>@font/grand_hotel</item>
+        <item>@font/marck_script</item>
+    </array>
+</resources>

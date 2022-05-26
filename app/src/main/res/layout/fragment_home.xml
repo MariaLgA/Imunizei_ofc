@@ -7,17 +7,42 @@
     tools:context=".ui.home.HomeFragment">
 
     <TextView
-        android:id="@+id/text_home"
-        android:layout_width="match_parent"
+        android:id="@+id/project2"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:text="Hello Home"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/charmonman"
+        android:text="Projeto Irmã Adelaide"
+        android:textColor="#009688"
+        android:textSize="25sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.604"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <WebView
+        android:id="@+id/teste"
+        android:layout_width="333dp"
+        android:layout_height="466dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/project2" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/mais"
+        android:layout_width="178dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/alatsi"
+        android:text="   Saiba mais"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:chipBackgroundColor="#009688"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teste" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

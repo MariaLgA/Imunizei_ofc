@@ -11,6 +11,16 @@
     <string name="menu_home"></string>
     <string name="menu_gallery"></string>
     <string name="menu_slideshow"></string>
+
+    <string name="html_scroll">
+
+        <![CDATA[
+         <h1><font color="black">Hello</font></h1>
+         <h><font size="200%">World</font></h>
+        ]]>
+    </string>
+
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

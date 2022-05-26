@@ -44,7 +44,9 @@ public class Link_ofFragment extends Fragment {
         args.putString(ARG_PARAM2, param2);
         fragment.setArguments(args);
         return fragment;
+
     }
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -61,4 +63,5 @@ public class Link_ofFragment extends Fragment {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_link_of, container, false);
     }
+
 }
