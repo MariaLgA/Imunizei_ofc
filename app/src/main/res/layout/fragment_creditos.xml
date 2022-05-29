@@ -4,28 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.gallery.GalleryFragment">
+    tools:context=".BlankFragment">
 
     <TextView
-        android:id="@+id/project4"
+        android:id="@+id/project3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="32dp"
         android:fontFamily="serif-monospace"
-        android:text="Vacinas para Gestantes"
+        android:text="Créditos"
         android:textColor="#009688"
         android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <WebView
-        android:id="@+id/teste1"
-        android:layout_width="402dp"
-        android:layout_height="575dp"
-        android:layout_marginTop="24dp"
+        android:id="@+id/creditos"
+        android:layout_width="409dp"
+        android:layout_height="657dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/project4" />
+        app:layout_constraintTop_toBottomOf="@+id/project3"
+        app:layout_constraintVertical_bias="1.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

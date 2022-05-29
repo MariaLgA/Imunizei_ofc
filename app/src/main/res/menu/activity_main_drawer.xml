@@ -25,6 +25,11 @@
             android:id="@+id/link_ofFragment"
             android:icon="@drawable/internet"
             android:title="Links" />
+
+        <item
+            android:id="@+id/fragment_creditos"
+            android:icon="@drawable/internet"
+            android:title="Créditos" />
     </group>
 
 </menu>

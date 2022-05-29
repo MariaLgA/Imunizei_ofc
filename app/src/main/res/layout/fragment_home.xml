@@ -10,22 +10,23 @@
         android:id="@+id/project2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:fontFamily="@font/charmonman"
+        android:layout_marginTop="48dp"
+        android:fontFamily="serif-monospace"
         android:text="Projeto Irmã Adelaide"
         android:textColor="#009688"
         android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.604"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <WebView
-        android:id="@+id/teste"
-        android:layout_width="333dp"
-        android:layout_height="466dp"
-        android:layout_marginTop="44dp"
+        android:id="@+id/teste1"
+        android:layout_width="407dp"
+        android:layout_height="471dp"
+        android:layout_marginTop="24dp"
+        android:noHistory="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/project2" />
@@ -34,15 +35,15 @@
         android:id="@+id/mais"
         android:layout_width="178dp"
         android:layout_height="57dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="12dp"
         android:fontFamily="@font/alatsi"
         android:text="   Saiba mais"
         android:textColor="#000000"
         android:textSize="24sp"
         app:chipBackgroundColor="#009688"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/teste" />
+        app:layout_constraintTop_toBottomOf="@+id/teste1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

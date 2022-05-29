@@ -11,7 +11,8 @@
         android:theme="@style/Theme.Imunzei_ofc">
         <activity
             android:name=".MainActivity3"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".MainActivity2"
             android:exported="false"

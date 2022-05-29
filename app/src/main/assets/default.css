@@ -1,0 +1,58 @@
+.title
+{
+    color:#009688;
+    font-size:18px;
+    line-height: 1.8;
+}
+.text
+{
+    color:black;
+    font-size:18px;
+    line-height: 1.8;
+    padding: 18px;
+    font-family:arial;
+    text-align: left;
+}
+.title_vac
+{
+    font-weight:bold;
+    text-align: center;
+
+}
+.title_dose_vac
+{
+    color:black;
+    font-size:18px;
+    font-weight:bold;
+    line-height: 1.8;
+    margin-left: 15px;
+    font-family:arial;
+}
+.text_dose_vac
+{
+    color:black;
+    font-size:16px;
+    line-height: 1.8;
+    margin-left: 20px;
+    margin-right: 10px;
+    font-family:arial;
+}
+.title_contra_ind
+{
+    color:red;
+    font-weight:bold;
+    font-size:18px;
+    line-height: 1.8;
+    margin-left: 15px;
+    font-family:arial;
+}
+.text_contra_ind
+{
+    color:black;
+    font-size:16px;
+    line-height: 1.8;
+    margin-left: 20px;
+    margin-right: 10px;
+    font-family:arial;
+}
+
