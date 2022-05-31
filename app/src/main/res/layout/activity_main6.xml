@@ -4,42 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.slideshow.SlideshowFragment">
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="106dp"
-        android:layout_height="40dp"
-        android:text="Próximo"
-        android:textColorHighlight="#009688"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.947"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/webView" />
+    tools:context=".MainActivity6">
 
     <WebView
-        android:id="@+id/webView"
-        android:layout_width="404dp"
-        android:layout_height="577dp"
+        android:id="@+id/in4"
+        android:layout_width="401dp"
+        android:layout_height="606dp"
         android:layout_marginTop="24dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/project5" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/project5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="28dp"
         android:fontFamily="serif-monospace"
         android:text="Vacinas para Idosos"
         android:textColor="#009688"
-        android:textSize="24sp"
+        android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,29 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.gallery.GalleryFragment">
+    tools:context=".MainActivity5">
+
+    <WebView
+        android:id="@+id/in4"
+        android:layout_width="401dp"
+        android:layout_height="606dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/project8" />
 
     <TextView
-        android:id="@+id/project4"
+        android:id="@+id/project8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:fontFamily="serif-monospace"
-        android:text="Vacinas para Gestantes"
+        android:text="Vacinas para Indígenas"
         android:textColor="#009688"
         android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <WebView
-        android:id="@+id/webView2"
-        android:layout_width="404dp"
-        android:layout_height="577dp"
-        android:layout_marginTop="24dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/project4" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,15 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.gallery.GalleryFragment">
+    tools:context=".fragment_idoso_2" >
 
     <TextView
-        android:id="@+id/project4"
+        android:id="@+id/idoso"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:fontFamily="serif-monospace"
-        android:text="Vacinas para Gestantes"
+        android:text="Vacinas para Idosos"
         android:textColor="#009688"
         android:textSize="25sp"
         android:textStyle="bold"
@@ -21,12 +21,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <WebView
-        android:id="@+id/webView2"
+        android:id="@+id/idosos_2"
         android:layout_width="404dp"
-        android:layout_height="577dp"
-        android:layout_marginTop="24dp"
+        android:layout_height="588dp"
+        android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/project4" />
-
+        app:layout_constraintTop_toBottomOf="@+id/idoso" />
 </androidx.constraintlayout.widget.ConstraintLayout>

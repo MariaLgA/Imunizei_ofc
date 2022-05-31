@@ -2,7 +2,6 @@ package com.example.imunzei_ofc.ui.home;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,7 +10,6 @@ import android.webkit.WebView;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
-import com.example.imunzei_ofc.MainActivity2;
 import com.example.imunzei_ofc.MainActivity3;
 import com.example.imunzei_ofc.R;
 import com.example.imunzei_ofc.databinding.FragmentHomeBinding;
@@ -30,7 +28,7 @@ public class HomeFragment extends Fragment {
         View root = binding.getRoot();
 
         View v = inflater.inflate(R.layout.fragment_home, container, false);
-        WebView comecar = (WebView)v.findViewById(R.id.teste1);
+        WebView comecar = (WebView)v.findViewById(R.id.in4);
 
 
 

@@ -37,4 +37,19 @@
         android:name="com.example.imunzei_ofc.BlankFragment"
         android:label="fragment_creditos"
         tools:layout="@layout/fragment_creditos" />
+    <fragment
+        android:id="@+id/fragment_gestantes2"
+        android:name="com.example.imunzei_ofc.fragment_gestantes2"
+        android:label="fragment_gestantes2"
+        tools:layout="@layout/fragment_gestantes2" />
+    <fragment
+        android:id="@+id/fragment_idoso_2"
+        android:name="com.example.imunzei_ofc.fragment_idoso_2"
+        android:label="fragment_idoso_2"
+        tools:layout="@layout/fragment_idoso_2" />
+    <fragment
+        android:id="@+id/blankFragment2"
+        android:name="com.example.imunzei_ofc.BlankFragment2"
+        android:label="fragment_indig"
+        tools:layout="@layout/fragment_indig" />
 </navigation>

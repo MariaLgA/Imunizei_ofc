@@ -5,11 +5,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.ViewModelProvider;
 
 import com.example.imunzei_ofc.R;
 import com.example.imunzei_ofc.databinding.FragmentGalleryBinding;
@@ -27,12 +25,36 @@ public class GalleryFragment extends Fragment {
         View root = binding.getRoot();
 
         View v = inflater.inflate(R.layout.fragment_gallery, container, false);
-        WebView comecar = (WebView)v.findViewById(R.id.teste1);
+
+
+       /*/ Button next = (Button) v.findViewById(R.id.button);
+        next.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+
+                Fragment gest = new fragment_gestantes2();
+                FragmentManager fragmentManager=getActivity().getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction=fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.nav_host_fragment_content_main, gest);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+
+                //Intent it = new Intent(getActivity(), MainActivity4.class);
+                //startActivity(it);
+
+            }
+       });/*/
+        WebView comecar = (WebView)v.findViewById(R.id.webView2);
 
         comecar.loadUrl("file:///android_asset/gestante.html");
 
-        //   galleryViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+
+
+
         return v;
+
+
     }
 
     @Override
