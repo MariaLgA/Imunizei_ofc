@@ -8,7 +8,7 @@
 {
     color:black;
     font-size:18px;
-    line-height: 1.8;
+    line-height: 1.4;
     padding: 18px;
     font-family:arial;
     text-align: left;
@@ -54,5 +54,15 @@
     margin-left: 20px;
     margin-right: 10px;
     font-family:arial;
+}
+
+.text_r
+{
+    color:009688;
+    font-size:18px;
+    line-height: 1.4;
+    padding: 18px;
+    font-family:arial;
+    text-align: left;
 }
 

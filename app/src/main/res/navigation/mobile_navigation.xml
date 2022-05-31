@@ -35,7 +35,6 @@
     <fragment
         android:id="@+id/fragment_creditos"
         android:name="com.example.imunzei_ofc.BlankFragment"
-        android:label="fragment_creditos"
         tools:layout="@layout/fragment_creditos" />
     <fragment
         android:id="@+id/fragment_gestantes2"
